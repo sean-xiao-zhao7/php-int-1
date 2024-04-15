@@ -1,13 +1,13 @@
 <?php
 
-$one = 'this is one';
+$one = [1, 12, 123, 'asdfasdf', 0.019];
 
 ?>
 
 <html>
 
 <body>
-    <p><?= "First $one" ?></p>
+    <p><?= $one ?></p>
 </body>
 
 </html>
