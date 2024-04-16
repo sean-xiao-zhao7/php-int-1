@@ -3,14 +3,14 @@ nav a {
     font-size: 2rem;
     font-weight: 600;
     color: rgb(255, 217, 0);
-    text-shadow: 1px 1px 1px rgb(172, 155, 0);
+    text-shadow: 0px 1px 1px rgb(172, 155, 0);
     padding: 2rem 2.5rem;
     position: relative;
 }
 
 nav a:hover {
     color: rgb(0, 0, 0);
-    /* text-shadow: 1px 1px 1px rgb(96, 86, 0); */
+    text-shadow: 0px 1px 1px rgb(96, 86, 0); */
 }
 
 nav a:hover::before {
@@ -18,6 +18,7 @@ nav a:hover::before {
 }
 
 nav {
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(4, auto);
 }
