@@ -1,5 +1,6 @@
 @import "./headings.css";
 @import "./menu.css";
+@import "./layout.css";
 
 * {
     font-family: "Barlow", sans-serif;
@@ -16,9 +17,8 @@ body {
 
     height: 100%;
     max-width: 100%;
-    overflow: hidden;
 
-    padding: 1rem;
+    padding: 3rem;
 
     display: flex;
     flex-direction: column;

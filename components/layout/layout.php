@@ -18,6 +18,9 @@ $title = $title ?? 'Page';
 </head>
 
 <body>
+    <div id='hero'>
+        <img src='/assets/images/main_icon3.png' alt='main logo' />
+    </div>
     <nav>
         <a href='/'>Home</a>
         <a href='/'>Page 2</a>
