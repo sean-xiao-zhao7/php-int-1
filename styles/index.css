@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(255, 205, 68);
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(white, rgb(255, 241, 189), rgb(255, 205, 68))
+        no-repeat;
+    height: 100%;
+    padding: 1rem;
+}
