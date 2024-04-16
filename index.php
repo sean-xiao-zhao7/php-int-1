@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
-require_once 'include_file.php';
+require_once 'components/test/include_file.php';
 
 $x = 2;
 $x **= 3;
