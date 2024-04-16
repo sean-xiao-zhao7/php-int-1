@@ -1,4 +1,5 @@
 @import "./headings.css";
+@import "./menu.css";
 
 * {
     font-family: "Barlow", sans-serif;
@@ -12,6 +13,19 @@ html {
 body {
     background: radial-gradient(white, rgb(255, 241, 189), rgb(255, 205, 68))
         no-repeat;
+
     height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
     padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
