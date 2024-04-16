@@ -10,6 +10,9 @@ $title = $title ?? 'Page';
     <meta name="description" content="A test app for PHP." />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,700&family=Libre+Caslon+Text:wght@400;700&display=swap" rel="stylesheet">
 
     <title>PHP Cool App - <?= $title ?></title>
 </head>

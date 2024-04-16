@@ -9,6 +9,7 @@ $target = null ?? '1';
 ?>
 
 <div>
+    <h1>Index</h1>
     <p>included_var: <?= $included_var ?></p>
     <p>Value: <?= $target <=> 0 ?></p>
     <p>Type: <?= var_dump($target) ?></p>

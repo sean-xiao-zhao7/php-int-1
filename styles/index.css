@@ -1,3 +1,9 @@
+@import "./headings.css";
+
+* {
+    font-family: "Barlow", sans-serif;
+}
+
 html {
     background-color: rgb(255, 205, 68);
     height: 100%;
