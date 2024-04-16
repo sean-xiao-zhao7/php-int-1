@@ -2,9 +2,12 @@
 error_reporting(0);
 $title = $title ?? 'Page';
 ?>
+<!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A test app for PHP." />
     <title>PHP Cool App - <?= $title ?></title>
 </head>
 
