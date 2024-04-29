@@ -2,9 +2,11 @@
 
 namespace Xi\Php;
 
+use Xi\Php\Interfaces\DebtCollectorInterface;
+
 class DebitCollectorService
 {
-    public function collect(DebtCollector $collector): string
+    public function collect(DebtCollectorInterface $collector): string
     {
         $amount = mt_rand(100, 1000);
         $result = $collector->collect($amount);

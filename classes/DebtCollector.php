@@ -2,7 +2,9 @@
 
 namespace Xi\Php;
 
-class DebtCollector implements \Xi\Php\Interfaces\DebtCollectorInterface
+use \Xi\Php\Interfaces\DebtCollectorInterface;
+
+class DebtCollector implements DebtCollectorInterface
 {
     public function collect(float $amount): float
     {
