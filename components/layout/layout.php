@@ -1,8 +1,4 @@
 <?php
-
-namespace Components;
-
-error_reporting(0);
 $title = $title ?? 'Page';
 ?>
 <!DOCTYPE html>
@@ -31,7 +27,7 @@ $title = $title ?? 'Page';
         <a href='/'>Page 4</a>
     </nav>
     <main>
-        <?= require_once $child_path ?>
+        <?php require_once $child_path; ?>
     </main>
 </body>
 

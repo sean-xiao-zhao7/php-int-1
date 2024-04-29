@@ -1,11 +1,11 @@
 <?php
 
-namespace Classes;
+namespace Xi\Php;
 
-class DebtCollector implements DebtCollectorInterface
+class DebtCollector implements \Xi\Php\Interfaces\DebtCollectorInterface
 {
     public function collect(float $amount): float
     {
-        return $amount * 0;
+        return mt_rand($amount * 0.5, $amount);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes;
+namespace Xi\Php\Interfaces;
 
 interface DebtCollectorInterface
 {

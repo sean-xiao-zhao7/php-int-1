@@ -1,14 +1,15 @@
 <?php
 
-// require_once 'components/test/include_file.php';
+$dir = scandir(__DIR__);
 
-$dir = scandir(__DIR__)
+$collector = new \Xi\Php\DebtCollector();
+$amount = $collector->collect(10);
 
 ?>
 
 <div>
-    <h1>Index</h1>
+    <h1>Collector test</h1>
     <pre>
-        <?= print_r($dir) ?>
-</pre>
+        Amount: <?= $amount ?>
+    </pre>
 </div>

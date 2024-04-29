@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Xi\\Php\\": "src/"
+            "Xi\\Php\\": "classes/",
+            "Xi\\Php\\Interfaces\\": "classes/interfaces"
         }
     },
     "authors": [
