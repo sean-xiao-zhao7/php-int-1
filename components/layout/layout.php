@@ -1,4 +1,7 @@
 <?php
+
+namespace Components;
+
 error_reporting(0);
 $title = $title ?? 'Page';
 ?>
