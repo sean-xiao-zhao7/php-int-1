@@ -2,14 +2,14 @@
 
 $dir = scandir(__DIR__);
 
-$collector = new \Xi\Php\DebtCollector();
-$amount = $collector->collect(10);
+$service = new \Xi\Php\DebitCollectorService();
+$result = $service->collect(new \Xi\Php\DebtCollector());
 
 ?>
 
 <div>
     <h1>Collector test</h1>
     <pre>
-        Amount: <?= $amount ?>
+        Amount: <?= $result ?>
     </pre>
 </div>
