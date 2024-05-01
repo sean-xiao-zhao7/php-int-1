@@ -14,13 +14,13 @@ class DebitCollectorService
         try {
             $result = $collector->collect($amount);
         } catch (DebtCollectionAmountInvalidException) {
-            return 'Amount $' . $amount . ' is invalid.' . PHP_EOL;
+            return 'Amount $' . $amount . ' is invalid.';
         }
 
-        $collected_result = 'Collected $' . $result . ' out of $' . $amount . PHP_EOL;
+        $collected_result = 'Collected $' . $result . ' out of $' . $amount;
 
         $dateTime = new \DateTime('tomorrow');
 
-        return print_r($dateTime);
+        return $dateTime->format('m/d/Y g:i A');
     }
 }
