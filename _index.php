@@ -1,15 +1,14 @@
 <?php
 
-$dir = scandir(__DIR__);
-
-$service = new \Xi\Php\DebitCollectorService();
-$result = $service->collect(new \Xi\Php\DebtCollector());
+$period = new DatePeriod(new DateTime(), new DateInterval("P1D"), new DateTime("next month"));
 
 ?>
 
 <div>
-    <h1>Collector test</h1>
-    <pre>
-        <?= $result ?>
-    </pre>
+    <h1>Sandbox</h1>
+    <?php foreach ($period as $day) { ?>
+        <pre>
+            <?= $day->format('D M/d/Y') ?>        
+        </pre>
+    <?php } ?>
 </div>

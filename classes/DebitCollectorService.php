@@ -19,8 +19,6 @@ class DebitCollectorService
 
         $collected_result = 'Collected $' . $result . ' out of $' . $amount;
 
-        $dateTime = new \DateTime('tomorrow');
-
-        return $dateTime->format('m/d/Y g:i A');
+        return $collected_result;
     }
 }
