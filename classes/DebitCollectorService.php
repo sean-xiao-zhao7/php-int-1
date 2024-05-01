@@ -17,6 +17,10 @@ class DebitCollectorService
             return 'Amount $' . $amount . ' is invalid.' . PHP_EOL;
         }
 
-        return 'Collected $' . $result . ' out of $' . $amount . PHP_EOL;
+        $collected_result = 'Collected $' . $result . ' out of $' . $amount . PHP_EOL;
+
+        $dateTime = new \DateTime('tomorrow');
+
+        return print_r($dateTime);
     }
 }

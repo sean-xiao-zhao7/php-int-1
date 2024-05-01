@@ -10,6 +10,6 @@ $result = $service->collect(new \Xi\Php\DebtCollector());
 <div>
     <h1>Collector test</h1>
     <pre>
-        Amount: <?= $result ?>
+        <?= $result ?>
     </pre>
 </div>
