@@ -1,13 +1,13 @@
 <?php
 
-use Xi\Php\DateTimeTest;
+use Xi\Php\DateTimeExecTest;
 
 ?>
 
 <div>
     <h1>Sandbox</h1>
     <pre>
-        <?= DateTimeTest::exec_test() ?>
+        <?= DateTimeExecTest::exec_test() ?>
     </pre>
 
 </div>

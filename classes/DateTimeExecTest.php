@@ -4,7 +4,7 @@ namespace Xi\Php;
 
 use Xi\Php\Interfaces\ExecTestInterface;
 
-class DateTimeTest implements ExecTestInterface
+class DateTimeExecTest implements ExecTestInterface
 {
     public static function exec_test(): string
     {
