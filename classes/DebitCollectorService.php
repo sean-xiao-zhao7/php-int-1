@@ -13,7 +13,7 @@ class DebitCollectorService
 
         try {
             $result = $collector->collect($amount);
-        } catch (DebtCollectionAmountInvalidException $e) {
+        } catch (DebtCollectionAmountInvalidException) {
             return 'Amount $' . $amount . ' is invalid.' . PHP_EOL;
         }
 
