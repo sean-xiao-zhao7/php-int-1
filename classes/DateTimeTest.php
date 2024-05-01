@@ -2,9 +2,11 @@
 
 namespace Xi\Php;
 
-class DateTimeTest
+use Xi\Php\Interfaces\ExecTestInterface;
+
+class DateTimeTest implements ExecTestInterface
 {
-    public static function exec_test()
+    public static function exec_test(): string
     {
         $period = new \DatePeriod(new \DateTime(), new \DateInterval("P1D"), new \DateTime("next month"));
 
