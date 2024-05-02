@@ -3,6 +3,8 @@
 namespace Xi\Php;
 
 use Xi\Php\Routing\Router;
+use Xi\Php\Controllers\HomeController;
+use Xi\Php\Controllers\InvoicesController;
 
 class App
 {
@@ -13,8 +15,9 @@ class App
         $this->router = new Router();
     }
 
-    public function register_route(string $path, callable $action): void
+    public function register_routes(): void
     {
-        $this->router->register($path, $action);
+        $this->router->register('/', new HomeController());
+        $this->router->register('/invoices', new InvoicesController());
     }
 }

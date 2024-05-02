@@ -2,7 +2,7 @@
 
 namespace Xi\Php\Controllers;
 
-class HomeController extends AbstractController
+class InvoicesController extends AbstractController
 {
     public function render_view(): void
     {
